@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Links</title>
+    <style>
+        /* Estilo global */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #e0f7fa, #80deea);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+        }
+
+        /* Estilo do título */
+        h1 {
+            color: #00796b;
+            font-size: 48px;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilo da lista */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+        }
+
+        /* Estilo dos itens da lista */
+        li {
+            margin: 20px 0;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilo dos links */
+        a {
+            text-decoration: none;
+            color: #00796b;
+            font-size: 20px;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #004d40;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Links</h1>
+    <ul>
+        <li><a href="https://mercadolivre.com/sec/2GsWeRH" target="_blank">PROJETOR HY300</a></li>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <!-- Adicione mais links aqui -->
+    </ul>
+</body>
+</html>
